@@ -1,0 +1,329 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+  
+}
+
+.container {
+     position: sticky;
+     top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color:white;
+    padding: 5px;
+    z-index: 999999999999;
+}
+
+.logo {
+    margin-top: 20px;
+    width: 100px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    margin-top: 30px;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: 1s;
+    border-radius: 50%;
+}
+
+.nav a:hover{
+    background-color: rgb(134, 66, 151);
+    opacity: 50%;
+}
+
+
+
+/* -------------------------Hero-section---------------- */
+.hero-section {
+    display: flex;
+
+}
+
+.hero-section>img {
+    width: 500px;
+    padding: 50px;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 50%;
+}
+
+
+
+.hero-section-content {
+    margin: 50px;
+    padding: 50px;
+   
+}
+.hero-section-content p {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+/* -----------------------Skills------------- */
+
+.skills {
+    background-color: azure;
+    margin: 20px 100px;
+    box-shadow: 10px 10px 15px rgb(161, 206, 206) inset;
+    border-radius: 10px;
+}
+
+.skills h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 20px;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    max-width: 800px;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-content img {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 150px;
+    margin: 10px;
+    padding: 30px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.skills-content img:hover {
+    transform: scale(1.2, 1.2);
+    box-shadow: 10px 10px 2px rgb(54, 50, 50);
+}
+
+
+/* ---------------Collaboration---------------- */
+.Collaboration {
+    padding: 20px 0px;
+    background-color: #F6F5F2;
+
+}
+
+.collaborate-content {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+
+}
+
+.Collaboration h1 {
+    text-align: center;
+}
+
+.collaborate-content img {
+    margin: 50px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.collaborate-content p {
+    padding: 10px;
+    margin-top: 100px;
+    font-size: 1.5rem;
+}
+
+/* --------------------Form------------------------ */
+[type="email"] {
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    /* border: none; */
+    transition: width 0.4s ease-in-out;
+
+}
+
+[type="email"]:focus {
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.cta {
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.cta:hover {
+    color: white;
+    background-color: red;
+}
+
+/* -------------------------Footer---------------- */
+.footer {
+
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: black;
+}
+
+.social-media h1 {
+    cursor: pointer;
+    color: white;
+
+}
+
+.social-media ul {
+    display: flex;
+}
+
+.social-media ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.social-media ul li i {
+    padding: 0px 10px;
+    cursor: pointer;
+    transition: 1s;
+    color: white;
+}
+
+.social-media ul li i:hover {
+    font-size: 1.7rem;
+}
+
+.Contacts h1 {
+    cursor: pointer;
+    color: white;
+}
+
+.Contacts ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+}
+
+.hr {
+    opacity: 20%;
+    color: rgb(78, 67, 51);
+}
+
+.last-footer {
+    background-color: black;
+
+    text-align: center;
+}
+
+.last-footer p {
+    font-size: 1rem;
+    padding: 10px;
+    color: rgb(250, 247, 247);
+}
+
+/* --------------Services--------------------- */
+.service-Header {
+    background-image: url(Assest/services.jpg);
+    width: 100vw;
+    max-width: 1347px;
+    height: 50%;
+    margin-top: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+.service-Header h1 {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    color: white;
+    font-size: 3rem;
+}
+.services-content{
+    margin: auto;
+    max-width: 50vw;
+    
+}
+.services-content h2{
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.services-content p{
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+.service-technology{
+    margin: 20px;
+}
+.service-technology p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* --------------------Contact-------------- */
+.contact-form{
+    margin: 30px 0px;
+}
+.contact{
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #F6F5F2;
+}
+
+[type="text"] {
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    /* border: none; */
+    transition: width 0.4s ease-in-out;
+
+}
+
+[type="text"]:focus {
+    width: 100%;
+    background-color: aquamarine;
+}
+
+[type="tel"] {
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    /* border: none; */
+    transition: width 0.4s ease-in-out;
+
+}
+
+[type="tel"]:focus {
+    width: 100%;
+    background-color: rgb(127, 240, 255);
+}
+
+textarea{
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+}
