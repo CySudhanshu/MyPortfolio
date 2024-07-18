@@ -1,0 +1,237 @@
+    /* about----------------- */
+
+    @media screen and (max-width:768px) {
+
+        /* ---------------Menu----------------- */
+
+
+        .mobile-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 10px;
+            align-items: center;
+        }
+
+        .mobile-header img {
+            width: 150px;
+        }
+
+        .mobile-header button {
+            font-size: 30px;
+        }
+
+        .mobile-header i {
+            width: 30px;
+            height: 30px;
+        }
+
+        .container1 {
+            display: none;
+
+            background-color: white;
+            width: 280px;
+            flex-direction: column;
+            justify-content: flex-start;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            padding: 10px;
+
+        }
+
+        .container1 .logo {
+
+            width: 150px;
+        }
+
+        .container1 .nav {
+
+            flex-direction: column;
+        }
+
+        .container1 .nav .nav-menu a {
+            display: inline-block;
+            margin: 0px;
+            padding: 10px 10px;
+            font-size: 20px;
+        
+            color: black;
+        }
+
+
+        /* ----------hero section---------- */
+        .hero-section {
+            flex-direction: column;
+            margin: 20px;
+        }
+
+        .hero-section>img {
+            display: block;
+            width: 300px;
+            height: 300px;
+            padding: 5px;
+            margin: auto;
+            cursor: pointer;
+
+            border-radius: 50%;
+        }
+
+        .hero-section-content h1 {
+            padding-top: 30px;
+            text-align: center;
+        }
+
+        .hero-section-content {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .hero-section-content p {
+            /* padding: 2px; */
+            font-size: 1rem;
+        }
+
+        .hero-section-content .btn {
+            font-size: 1rem;
+            cursor: pointer;
+            margin: 50px 20px;
+        }
+
+        /* ------------------Skills------------- */
+        .skills {
+            background-color: azure;
+
+            margin: 0px 0px;
+        }
+
+        .skills h1 {
+            padding: 30px;
+            margin-top: 20px;
+        }
+
+        .skills-content {
+            justify-content: space-around;
+
+            padding: 30px;
+        }
+
+        .skills-content img {
+            width: 150px;
+            height: 150px;
+        }
+
+        /* ---------Collecboration------------- */
+
+        .collaborate-content {
+            flex-direction: column;
+            margin: 20px;
+        }
+
+        .collaborate-content img {
+            display: block;
+            margin: auto;
+            width: 300px;
+            height: 300px;
+            /* border-radius: 50%; */
+        }
+
+        .Collaboration h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .collaborate-content p {
+            padding: 20px;
+            margin: 20px;
+            font-size: 1.5rem;
+        }
+
+        .collaborate-content form {
+            margin: 20px;
+        }
+
+        /* ------------Form------------------ */
+
+        [type="email"] {
+            width: 150px;
+            padding: 15px;
+            border-radius: 5px;
+            margin-left: 20px;
+            transition: width 0.4s ease-in-out;
+
+        }
+
+        .cta {
+            font-size: 1.2rem;
+            padding: 10px 15px;
+            margin: 10px 20px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+        }
+
+        /* --------------------Footer-------------------- */
+        .footer {
+            flex-direction: column;
+            padding: 30px 20px;
+        }
+
+        .Social-media {
+            margin: 10px 0px;
+        }
+
+        .Social-media ul {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .Social-media ul li {
+            padding: 10px;
+        }
+        .contacts ul li{
+            padding: 10px;
+        }
+
+
+        /* ------------------------Project------------------  */
+        .Project-topic {
+            margin: 20px 20px;
+            flex-direction: column;
+
+        }
+
+        .project-item {
+            margin: 20px;
+
+        }
+
+        /* -------------------------Contacts------------------- */
+        .contact-form {
+            margin: 30px 20px;
+        }
+
+        [type="text"] {
+
+            margin-top: 10px;
+
+
+        }
+
+        [type="email"] {
+            margin-top: 10px;
+            margin-left: 0px;
+        }
+
+        [type="tel"] {
+            margin-top: 10px;
+        }
+
+        textarea {
+            margin-top: 10px;
+        }
+
+        .cta {
+            margin: 0px;
+        }
+    }

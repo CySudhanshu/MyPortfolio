@@ -3,28 +3,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+   
     <script src="https://kit.fontawesome.com/a40a7622e2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container">
+      <section>
 
-        <img src="./Assest/my logo.png" class="logo">
+     
 
+    <div class="mobile-header">
+        <img src="./Assest/my logo2.png" class="logo">
+        <button  onclick="openMenu()"><i class="fa-solid fa-bars"></i></button>
+        
+    </div>
+    <div class="container1">
+
+        <img src="./Assest/my logo2.png" class="logo">
 
         <nav class="nav">
-            <div>
+            <div class="nav-menu">
                 <a href="index.html">About</a>
             </div>
-            <div>
+            <div class="nav-menu">
                 <a href="services.html">Services</a>
             </div>
-           
-            <div>
-                <a href="javascript: void(0)">Blog</a>
+            <div class="nav-menu">
+                <a href="Project.html">Projects</a>
             </div>
-            <div>
+           
+            <div class="nav-menu">
+                <a href="">Blog</a>
+            </div>
+            <div class="nav-menu">
                 <a href="Contact.html">Contacts</a>
             </div>
         </nav>
@@ -45,24 +57,25 @@
         </form>
     </div>
 </div>
-
+</section>
     <!-- ----------------Footer---------------- -->
     <div class="footer">
             
         <div class="Social-media">
-            <h1>Social links</h1>
+            <h2>Social links</h2>
             <ul>
-                <li> <a href=""><i class="fa-brands fa-facebook"></i></a>Facebook</li>
-                <li> <a href="https://www.linkedin.com/in/cysudhanshu/"></a><i class="fa-brands fa-linkedin"></i>LinkedIn</li>
-                <li> <a href=""></a><i class="fa-brands fa-github"></i>Github</li>
-                <li> <a href=""></a><i class="fa-brands fa-instagram"></i>Instagram</li>
+                <li> <i class="fa-brands fa-facebook"></i> <a href="">Facebook</a></li>
+                <li> <i class="fa-brands fa-linkedin"></i> <a href="">LinkedIn</a></li>
+                <li> <i class="fa-brands fa-github"></i> <a href="https://github.com/Cysudhanshu" target="_blank">Github</a></li>
+                <li> <i class="fa-brands fa-instagram"></i> <a href="">Instagram</a></li>
             </ul>
         </div>
      <div class="contacts">
-        <h1>Contact</h1>
+        <h2>Contact</h2>
         <ul>
-            <li>Phone no :+91 7668955287</li>
-            <li>Email Id : Cysudhanshu@gmail.com</li>
+            <li><i class="fa-solid fa-house"></i>: Delhi, India.</li>
+            <li><i class="fa-solid fa-phone"></i> :+91 7668955287</li>
+            <li><i class="fa-regular fa-envelope"></i> : Cysudhanshu@gmail.com</li>
         </ul>
      </div>
 </div>
@@ -70,6 +83,9 @@
 <div class="last-footer">
     <p>Copyright &copy; & Designed by Sudhanshu Chaudhary</p>
 </div>
+<script src="javascript.js" ></script>
+
+
 
 </body>
 </html>

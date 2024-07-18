@@ -3,20 +3,30 @@
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
+    overflow-x: 0;
 
-  
+
 }
 
-.container {
-     position: sticky;
-     top: 0px;
+section {
+    background-image: linear-gradient(rgb(149, 202, 219), rgb(245, 245, 211), rgb(255, 255, 255));
+}
+
+/* --------------Molible-header------- */
+.mobile-header {
+    display: none;
+}
+
+/* -------------navbar--------- */
+.container1 {
+
     display: flex;
     width: 100%;
     justify-content: space-around;
-    background-color:white;
+   
     padding: 5px;
     z-index: 999999999999;
-   
+
 }
 
 .logo {
@@ -29,24 +39,24 @@
 .nav {
     display: flex;
     margin-top: 30px;
-   
+
 }
 
 .nav a {
+
     color: black;
     text-decoration: none;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
     font-size: 1.2rem;
     font-weight: 500;
     transition: 0.2s;
     border-radius: 10px;
-   
+
 }
 
-.nav a:hover{
+.nav a:hover {
     background-color: rgb(23, 7, 245);
-    /* opacity: 50%; */
     color: white;
     
 }
@@ -60,10 +70,10 @@
 }
 
 .hero-section>img {
-    width: 500px;
+    width: 450px;
+    height: 450px;
     padding: 50px;
     cursor: pointer;
-    transition: 1s;
     border-radius: 50%;
 }
 
@@ -72,17 +82,37 @@
 .hero-section-content {
     margin: 50px;
     padding: 50px;
-   
+
 }
+
 .hero-section-content p {
+    padding: 20px 10px;
+    font-size: 1.2rem;
+    margin: 20px 10px;
+}
+
+.btn {
     padding: 10px;
-    font-size: 1rem;
+    margin: 0px 15px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.9s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: blue;
 }
 
 /* -----------------------Skills------------- */
 
 .skills {
     background-color: azure;
+    padding: 20px 0px;
     margin: 20px 100px;
     box-shadow: 10px 10px 15px rgb(161, 206, 206) inset;
     border-radius: 10px;
@@ -122,7 +152,7 @@
 
 /* ---------------Collaboration---------------- */
 .Collaboration {
-    padding: 20px 0px;
+    padding: 40px 0px;
     background-color: #F6F5F2;
 
 }
@@ -171,61 +201,67 @@
     margin: 5px 5px;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s;
+    transition: 0.9s;
 }
 
 .cta:hover {
     color: white;
-    background-color: red;
+    background-color: blue;
 }
 
 /* -------------------------Footer---------------- */
 .footer {
-
+    color: white;
     display: flex;
     justify-content: space-around;
-    padding: 50px;
-    background-color: black;
+    padding: 80px 20px;
+    background-color:#000000;
 }
 
-.social-media h1 {
+.Social-media h1 {
     cursor: pointer;
     color: white;
 
 }
 
-.social-media ul {
-    display: flex;
-}
 
-.social-media ul li {
+
+.Social-media ul li {
+
     list-style: none;
     padding: 5px;
     font-size: 1rem;
     color: white;
 }
 
-.social-media ul li i {
+.Social-media ul li i {
     padding: 0px 10px;
-    cursor: pointer;
+
     transition: 1s;
     color: white;
 }
 
-.social-media ul li i:hover {
-    font-size: 1.7rem;
+
+.Social-media ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
 }
 
-.Contacts h1 {
+
+.contacts h1 {
     cursor: pointer;
     color: white;
 }
 
-.Contacts ul li {
+.contacts ul li {
     list-style: none;
     padding: 5px;
     font-size: 1rem;
     color: white;
+}
+.contacts ul li i{
+    padding: 0px 10px;
 }
 
 .hr {
@@ -235,7 +271,7 @@
 
 .last-footer {
     background-color: black;
-
+    padding: 0px;
     text-align: center;
 }
 
@@ -246,53 +282,73 @@
 }
 
 /* --------------Services--------------------- */
-.service-Header {
-    background-image: url(Assest/services.jpg);
-    width: 100vw;
-    max-width: 1347px;
-    height: 50%;
-    margin-top: 20px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: relative;
+
+
+.service-Header h1 {
+    padding: 20px 0;
+    text-align: center;
+    color: rgb(10, 10, 10);
     
 }
 
-.service-Header h1 {
-    position: absolute;
-    top: 100px;
-    left: 500px;
-    color: white;
-    font-size: 3rem;
+.services-content {
+    margin: 30px ;
+  
+
 }
-.services-content{
-    margin: auto;
-    max-width: 50vw;
-    
-}
-.services-content h2{
-    font-size: 1.5rem;
-    margin-top: 30px;
-}
-.services-content p{
+
+
+
+.services-content p {
     margin-top: 30px;
     font-size: 1.2rem;
 }
-.service-technology{
-    margin: 20px;
+
+.service-technology {
+    margin: 50px 20px;
 }
-.service-technology p{
+
+.service-technology p {
     font-size: 1rem;
     font-weight: 500;
 }
+/* -------------Project---------------- */
+.Project-heading {
+    padding: 30px;
+    text-align: center;
+}
+
+.Project-topic {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-item {
+    padding: 5px;
+    margin: 100px 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.project-item img {
+    cursor: pointer;
+    width: 100%;
+    height: 200px;
+}
+
+.project-item .img2 {
+    cursor: pointer;
+    width: 100% !important;
+    height: 250px;
+}
+
 
 /* --------------------Contact-------------- */
-.contact-form{
+.contact-form {
     margin: 30px 0px;
 }
-.contact{
+
+.contact {
     max-width: 500px;
     margin: auto;
     border: 1px solid black;
@@ -300,6 +356,7 @@
     padding: 20px;
     background-color: #F6F5F2;
 }
+ 
 
 [type="text"] {
     width: 120px;
@@ -329,8 +386,9 @@
     background-color: rgb(127, 240, 255);
 }
 
-textarea{
+textarea {
     font-size: 1rem;
     padding: 10px;
     border-radius: 5px;
 }
+

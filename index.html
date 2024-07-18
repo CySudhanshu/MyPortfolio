@@ -3,45 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="responsive.css">
+    <title>Porfolio</title>
+
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
     <script src="https://kit.fontawesome.com/a40a7622e2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
+    <section>
+        <div class="mobile-header">
+            <img src="./Assest/my logo2.png" class="logo">
+            <button onclick="openMenu()"> <i class="fa-solid fa-bars"></i></button>
 
-    <div class="container">
 
-        <img src="./Assest/my logo.png" class="logo">
-      
-
-
-        <nav class="nav">
-            <div>
-                <a href="index.html">About</a>
-            </div>
-            <div>
-                <a href="services.html">Services</a>
-            </div>
-            <div>
-                <a href="">Projects</a>
-            </div>
-            <div>
-                <a href="javascript: void(0)">Blog</a>
-            </div>
-            <div>
-                <a href="Contact.html">Contacts</a>
-            </div>
-        </nav>
-    </div>
-    <div class="hero-section">
-        <img src="./Assest/profile-pic (5).png" alt="">
-        <div class="hero-section-content">
-            <h1>About</h1>
-            <p> Hey there! I'm <span style="color: orange; font-weight: 700;">Sudhanshu Chaudhary</span>, a passionate front-end developer with a knack for turning designs into captivating digital experiences. With expertise in HTML, CSS, and JavaScript, I specialize in creating sleek and responsive user interfaces that leave a lasting impression. Whether it's optimizing performance, ensuring accessibility, or diving into the latest frameworks, I thrive on the creative challenges of bringing ideas to life in the digital realm. Let's build something awesome together!</p>
         </div>
-    </div>
+
+
+        <div class="container1">
+
+            <img src="./Assest/my logo2.png" class="logo">
+
+
+
+
+            <nav class="nav">
+                <div class="nav-menu">
+                    <a href="index.html">About</a>
+                </div>
+                <div class="nav-menu">
+                    <a href="services.html">Services</a>
+                </div>
+                <div class="nav-menu">
+                    <a href="Project.html">Projects</a>
+                </div>
+
+                <div class="nav-menu">
+                    <a href="">Blog</a>
+                </div>
+                <div class="nav-menu">
+                    <a href="Contact.html">Contacts</a>
+                </div>
+            </nav>
+        </div>
+        <div class="hero-section">
+            <img src="./Assest/image.png" alt="">
+            <div class="hero-section-content">
+
+                <h1>About Me</h1>
+                <p> Hey there! I'm <span style="color: orange; font-weight: 700;">SUDHANSHU CHAUDHARY</span>, a
+                    passionate
+                    front-end developer with a knack for turning designs into captivating digital experiences. With
+                    expertise in HTML, CSS, and JavaScript, I specialize in creating sleek and responsive user
+                    interfaces
+                    that leave a lasting impression. Whether it's optimizing performance, ensuring accessibility, or
+                    diving
+                    into the latest frameworks, I thrive on the creative challenges of bringing ideas to life in the
+                    digital
+                    realm. Let's build something awesome together!</p>
+                <a href="Contact.html" class="btn">Click Here</a>
+            </div>
+
+        </div>
+    </section>
+
+
     <div class="skills">
         <h1>My skills & Software</h1>
         <div class="skills-content">
@@ -56,49 +84,55 @@
             <img src="Assest/git.png" alt="">
         </div>
     </div>
-   
-   <!-- ------------------------Collaboration------------------ -->
-        <div class="Collaboration">
-            <h1>Let's Collaborate</h1>
-            <div class="collaborate-content">
-                <img src="Assest/inside.jpg" alt="">
-                <div>
-                    <p>Have an idea or an epic project in mind? Let's work together and make something great.</p>
-               
-                    <form action="">
-                        <input type="email" placeholder="Enter your Email"  required>
-                        <button type="submit" class="cta">Submit</button>
-                    </form>
-                </div>
-                
+
+    <!-- ------------------------Collaboration------------------ -->
+    <div class="Collaboration">
+        <h1 class="animate_animate animate__flash">Let's Collaborate</h1>
+        <div class="collaborate-content">
+            <img src="Assest/inside.jpg">
+
+            <div >
+                <p>Have an idea or an epic project in mind? Let's work together and make something great.</p>
+
+                <form action="">
+                    <input type="email" placeholder="Enter your Email" required>
+                    <button type="submit" class="cta">Submit</button>
+                </form>
             </div>
-            
+
         </div>
- <!-- ----------------Footer---------------- -->
-        <div class="footer">
-            
-            <div class="Social-media">
-                <h1>Social links</h1>
-                <ul>
-                    <li> <a href=""><i class="fa-brands fa-facebook"></i></a>Facebook</li>
-                    <li> <a href=""></a><i class="fa-brands fa-linkedin"></i>LinkedIn</li>
-                    <li> <a href="" target="_blank"></a><i class="fa-brands fa-github"></i>Github</li>
-                    <li> <a href=""></a><i class="fa-brands fa-instagram"></i>Instagram</li>
-                </ul>
-            </div>
-         <div class="contacts">
-            <h1>Contact</h1>
+
+    </div>
+    <!-- ----------------Footer---------------- -->
+    <div class="footer">
+
+        <div class="Social-media">
+            <h2>Social links</h2>
             <ul>
-                <li>Phone no :+91 7668955287</li>
-                <li>Email Id : Cysudhanshu@gmail.com</li>
+                <li> <i class="fa-brands fa-facebook"></i> <a href="">Facebook</a></li>
+                <li> <i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/cysudhanshu/"
+                        target="_blank">LinkedIn</a></li>
+                <li> <i class="fa-brands fa-github"></i> <a href="https://github.com/Cysudhanshu"
+                        target="_blank">Github</a></li>
+                <li> <i class="fa-brands fa-instagram"></i> <a href="">Instagram</a></li>
             </ul>
-         </div>
+        </div>
+        <div class="contacts">
+            <h2>Contact</h2>
+            <ul>
+                <li><i class="fa-solid fa-house"></i>: Delhi, India.</li>
+                <li><i class="fa-solid fa-phone"></i> :+91 7668955287</li>
+                <li><i class="fa-regular fa-envelope"></i> : Cysudhanshu@gmail.com</li>
+            </ul>
+        </div>
     </div>
     <hr class="hr">
     <div class="last-footer">
         <p>Copyright &copy; & Designed by Sudhanshu Chaudhary</p>
     </div>
 
+
+    <!-- ----------------javascript------------------- -->
     <script src="javascript.js"></script>
 </body>
 
