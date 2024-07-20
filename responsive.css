@@ -28,7 +28,7 @@
         .container1 {
             display: none;
 
-            background-color: white;
+            background-image: linear-gradient(rgb(149, 202, 219), rgb(245, 245, 211), rgb(255, 255, 255));
             width: 280px;
             flex-direction: column;
             justify-content: flex-start;
@@ -37,7 +37,7 @@
             bottom: 0;
             left: 0;
             padding: 10px;
-
+          
         }
 
         .container1 .logo {
@@ -178,16 +178,21 @@
         }
 
         .Social-media {
+          text-align: center;
             margin: 10px 0px;
         }
 
+
         .Social-media ul {
             display: flex;
-            flex-direction: column;
+            /* flex-direction: column; */
         }
 
         .Social-media ul li {
             padding: 10px;
+        }
+        .contacts h2 {
+            text-align: center;
         }
         .contacts ul li{
             padding: 10px;
